@@ -5,10 +5,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--Menu Table View Controller-->
         <scene sceneID="gM1-B3-Pig">
             <objects>
-                <tableViewController id="BVX-RT-XT7" sceneMemberID="viewController">
+                <tableViewController id="BVX-RT-XT7" customClass="MenuTableViewController" customModule="gitHubWeek3" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="GKS-lp-HF2">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -23,6 +23,7 @@
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fO7-yN-BxY">
                                                     <rect key="frame" x="8" y="7" width="80" height="80"/>
+                                                    <color key="backgroundColor" red="0.90285669189999995" green="0.0" blue="0.0090750820109999995" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="80" id="1ov-U5-kc2"/>
                                                     </constraints>
@@ -55,6 +56,7 @@
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rYu-2c-OZ9">
                                                     <rect key="frame" x="8" y="7" width="80" height="80"/>
+                                                    <color key="backgroundColor" red="0.90285669189999995" green="0.0" blue="0.0090750820109999995" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="80" id="sKZ-hH-EYc"/>
                                                     </constraints>
@@ -137,6 +139,39 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gS2-UC-cu3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2247" y="344"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="7Y4-rD-z1b">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" id="wd6-FU-n2H" customClass="LoginViewController" customModule="gitHubWeek3" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bYe-5Y-COS"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rkn-Qh-Qzw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="I1I-SA-8vj">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Prepare to Login" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3G-cE-ye8">
+                                <rect key="frame" x="236" y="289" width="128" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="Y3G-cE-ye8" secondAttribute="centerX" id="6M1-yY-VbF"/>
+                            <constraint firstAttribute="centerY" secondItem="Y3G-cE-ye8" secondAttribute="centerY" id="96t-gM-hik"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="hTt-vo-1DJ" kind="show" identifier="toNCSegue" id="pkM-AN-qxe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ydt-up-QQU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="723" y="-421"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Q9I-k3-fbx">

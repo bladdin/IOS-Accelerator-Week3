@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B50244B91B83D235008EB664 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50244B81B83D235008EB664 /* AuthService.swift */; };
+		B50244BB1B83D36B008EB664 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50244BA1B83D36B008EB664 /* Keys.swift */; };
+		B58916181B84E3EA00007033 /* KeyChainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58916171B84E3EA00007033 /* KeyChainService.swift */; };
+		B589161E1B84EBF000007033 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589161D1B84EBF000007033 /* LoginViewController.swift */; };
+		B58916221B84F78500007033 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58916211B84F78500007033 /* TestViewController.swift */; };
 		B592165A1B839F4E0050B835 /* RepoSearchViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59216591B839F4E0050B835 /* RepoSearchViewContoller.swift */; };
 		B5F4A7491B82755200471F9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F4A7481B82755200471F9A /* AppDelegate.swift */; };
 		B5F4A74B1B82755200471F9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F4A74A1B82755200471F9A /* ViewController.swift */; };
@@ -29,6 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B50244B81B83D235008EB664 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		B50244BA1B83D36B008EB664 /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		B58916171B84E3EA00007033 /* KeyChainService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyChainService.swift; sourceTree = "<group>"; };
+		B589161D1B84EBF000007033 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
+		B58916211B84F78500007033 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		B59216591B839F4E0050B835 /* RepoSearchViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RepoSearchViewContoller.swift; path = ../RepoSearchViewContoller.swift; sourceTree = "<group>"; };
 		B5F4A7431B82755200471F9A /* gitHubWeek3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitHubWeek3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F4A7471B82755200471F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,6 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				B5F4A76A1B82893D00471F9A /* GithubService.swift */,
+				B50244B81B83D235008EB664 /* AuthService.swift */,
+				B50244BA1B83D36B008EB664 /* Keys.swift */,
+				B58916171B84E3EA00007033 /* KeyChainService.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -84,6 +97,8 @@
 				B59216591B839F4E0050B835 /* RepoSearchViewContoller.swift */,
 				B5F4A76C1B82894100471F9A /* MenuTableViewController.swift */,
 				B5F4A74A1B82755200471F9A /* ViewController.swift */,
+				B589161D1B84EBF000007033 /* LoginViewController.swift */,
+				B58916211B84F78500007033 /* TestViewController.swift */,
 				B59216561B838ED90050B835 /* Views */,
 			);
 			name = Controllers;
@@ -245,9 +260,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58916221B84F78500007033 /* TestViewController.swift in Sources */,
+				B589161E1B84EBF000007033 /* LoginViewController.swift in Sources */,
 				B5F4A76D1B82894100471F9A /* MenuTableViewController.swift in Sources */,
 				B5F4A74B1B82755200471F9A /* ViewController.swift in Sources */,
 				B5F4A7491B82755200471F9A /* AppDelegate.swift in Sources */,
+				B50244B91B83D235008EB664 /* AuthService.swift in Sources */,
+				B50244BB1B83D36B008EB664 /* Keys.swift in Sources */,
+				B58916181B84E3EA00007033 /* KeyChainService.swift in Sources */,
 				B5F4A76B1B82893D00471F9A /* GithubService.swift in Sources */,
 				B592165A1B839F4E0050B835 /* RepoSearchViewContoller.swift in Sources */,
 			);
