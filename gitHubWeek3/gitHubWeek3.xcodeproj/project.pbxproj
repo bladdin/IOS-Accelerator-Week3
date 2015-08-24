@@ -9,10 +9,21 @@
 /* Begin PBXBuildFile section */
 		B50244B91B83D235008EB664 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50244B81B83D235008EB664 /* AuthService.swift */; };
 		B50244BB1B83D36B008EB664 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50244BA1B83D36B008EB664 /* Keys.swift */; };
+		B52F6BEC1B878414008C5EEC /* UserSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52F6BEB1B878414008C5EEC /* UserSearchViewController.swift */; };
+		B52F6BEE1B8785DE008C5EEC /* DetailedUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52F6BED1B8785DE008C5EEC /* DetailedUserViewController.swift */; };
+		B52F6BF01B878F8A008C5EEC /* UserJsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52F6BEF1B878F8A008C5EEC /* UserJsonParser.swift */; };
 		B58916181B84E3EA00007033 /* KeyChainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58916171B84E3EA00007033 /* KeyChainService.swift */; };
 		B589161E1B84EBF000007033 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589161D1B84EBF000007033 /* LoginViewController.swift */; };
 		B58916221B84F78500007033 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58916211B84F78500007033 /* TestViewController.swift */; };
 		B592165A1B839F4E0050B835 /* RepoSearchViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59216591B839F4E0050B835 /* RepoSearchViewContoller.swift */; };
+		B5AB2A911B8AE62F002A996C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AB2A901B8AE62F002A996C /* Extensions.swift */; };
+		B5AB2A931B8AE74C002A996C /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AB2A921B8AE74C002A996C /* UserCell.swift */; };
+		B5AB2A951B8AEDB2002A996C /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AB2A941B8AEDB2002A996C /* ImageService.swift */; };
+		B5AB2A971B8AEE69002A996C /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AB2A961B8AEE69002A996C /* UserDetailViewController.swift */; };
+		B5AB2A9F1B8AEFD3002A996C /* ToUserDetailAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AB2A9E1B8AEFD3002A996C /* ToUserDetailAnimationController.swift */; };
+		B5AB2AA11B8AF17D002A996C /* ImageResizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AB2AA01B8AF17D002A996C /* ImageResizer.swift */; };
+		B5EE8E071B86350F00658CD2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EE8E061B86350F00658CD2 /* Constants.swift */; };
+		B5EE8E091B864CD100658CD2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EE8E081B864CD100658CD2 /* User.swift */; };
 		B5F4A7491B82755200471F9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F4A7481B82755200471F9A /* AppDelegate.swift */; };
 		B5F4A74B1B82755200471F9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F4A74A1B82755200471F9A /* ViewController.swift */; };
 		B5F4A74E1B82755200471F9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F4A74C1B82755200471F9A /* Main.storyboard */; };
@@ -36,10 +47,21 @@
 /* Begin PBXFileReference section */
 		B50244B81B83D235008EB664 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		B50244BA1B83D36B008EB664 /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		B52F6BEB1B878414008C5EEC /* UserSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSearchViewController.swift; sourceTree = "<group>"; };
+		B52F6BED1B8785DE008C5EEC /* DetailedUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedUserViewController.swift; sourceTree = "<group>"; };
+		B52F6BEF1B878F8A008C5EEC /* UserJsonParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserJsonParser.swift; sourceTree = "<group>"; };
 		B58916171B84E3EA00007033 /* KeyChainService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyChainService.swift; sourceTree = "<group>"; };
 		B589161D1B84EBF000007033 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
 		B58916211B84F78500007033 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		B59216591B839F4E0050B835 /* RepoSearchViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RepoSearchViewContoller.swift; path = ../RepoSearchViewContoller.swift; sourceTree = "<group>"; };
+		B5AB2A901B8AE62F002A996C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B5AB2A921B8AE74C002A996C /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		B5AB2A941B8AEDB2002A996C /* ImageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		B5AB2A961B8AEE69002A996C /* UserDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		B5AB2A9E1B8AEFD3002A996C /* ToUserDetailAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToUserDetailAnimationController.swift; path = ../ToUserDetailAnimationController.swift; sourceTree = "<group>"; };
+		B5AB2AA01B8AF17D002A996C /* ImageResizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageResizer.swift; sourceTree = "<group>"; };
+		B5EE8E061B86350F00658CD2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B5EE8E081B864CD100658CD2 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B5F4A7431B82755200471F9A /* gitHubWeek3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitHubWeek3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F4A7471B82755200471F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5F4A7481B82755200471F9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,9 +106,16 @@
 			isa = PBXGroup;
 			children = (
 				B5F4A76A1B82893D00471F9A /* GithubService.swift */,
+				B52F6BEF1B878F8A008C5EEC /* UserJsonParser.swift */,
+				B5EE8E081B864CD100658CD2 /* User.swift */,
 				B50244B81B83D235008EB664 /* AuthService.swift */,
 				B50244BA1B83D36B008EB664 /* Keys.swift */,
+				B5AB2A901B8AE62F002A996C /* Extensions.swift */,
 				B58916171B84E3EA00007033 /* KeyChainService.swift */,
+				B5AB2A921B8AE74C002A996C /* UserCell.swift */,
+				B5EE8E061B86350F00658CD2 /* Constants.swift */,
+				B5AB2A941B8AEDB2002A996C /* ImageService.swift */,
+				B5AB2AA01B8AF17D002A996C /* ImageResizer.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -94,11 +123,15 @@
 		B59216581B838EFA0050B835 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B5AB2A9E1B8AEFD3002A996C /* ToUserDetailAnimationController.swift */,
 				B59216591B839F4E0050B835 /* RepoSearchViewContoller.swift */,
-				B5F4A76C1B82894100471F9A /* MenuTableViewController.swift */,
 				B5F4A74A1B82755200471F9A /* ViewController.swift */,
 				B589161D1B84EBF000007033 /* LoginViewController.swift */,
+				B5F4A76C1B82894100471F9A /* MenuTableViewController.swift */,
+				B52F6BEB1B878414008C5EEC /* UserSearchViewController.swift */,
+				B5AB2A961B8AEE69002A996C /* UserDetailViewController.swift */,
 				B58916211B84F78500007033 /* TestViewController.swift */,
+				B52F6BED1B8785DE008C5EEC /* DetailedUserViewController.swift */,
 				B59216561B838ED90050B835 /* Views */,
 			);
 			name = Controllers;
@@ -261,14 +294,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				B58916221B84F78500007033 /* TestViewController.swift in Sources */,
+				B5EE8E071B86350F00658CD2 /* Constants.swift in Sources */,
+				B52F6BF01B878F8A008C5EEC /* UserJsonParser.swift in Sources */,
 				B589161E1B84EBF000007033 /* LoginViewController.swift in Sources */,
+				B5AB2A931B8AE74C002A996C /* UserCell.swift in Sources */,
 				B5F4A76D1B82894100471F9A /* MenuTableViewController.swift in Sources */,
 				B5F4A74B1B82755200471F9A /* ViewController.swift in Sources */,
 				B5F4A7491B82755200471F9A /* AppDelegate.swift in Sources */,
 				B50244B91B83D235008EB664 /* AuthService.swift in Sources */,
+				B5AB2A9F1B8AEFD3002A996C /* ToUserDetailAnimationController.swift in Sources */,
 				B50244BB1B83D36B008EB664 /* Keys.swift in Sources */,
+				B5EE8E091B864CD100658CD2 /* User.swift in Sources */,
+				B5AB2A951B8AEDB2002A996C /* ImageService.swift in Sources */,
+				B52F6BEC1B878414008C5EEC /* UserSearchViewController.swift in Sources */,
+				B5AB2A911B8AE62F002A996C /* Extensions.swift in Sources */,
 				B58916181B84E3EA00007033 /* KeyChainService.swift in Sources */,
+				B5AB2AA11B8AF17D002A996C /* ImageResizer.swift in Sources */,
 				B5F4A76B1B82893D00471F9A /* GithubService.swift in Sources */,
+				B5AB2A971B8AEE69002A996C /* UserDetailViewController.swift in Sources */,
+				B52F6BEE1B8785DE008C5EEC /* DetailedUserViewController.swift in Sources */,
 				B592165A1B839F4E0050B835 /* RepoSearchViewContoller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
